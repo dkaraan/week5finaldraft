@@ -39,7 +39,7 @@ export async function getStaticPaths(){
 //react component with the data acquired
 export default function Entry({ itemData }){
   return(
-    <>
+
     <Layout>
   <article className="card col-6">
     <div className="card-body">
@@ -74,6 +74,5 @@ export default function Entry({ itemData }){
   </div>
 
   </Layout>
-  </>
   );
 }
